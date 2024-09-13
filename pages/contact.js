@@ -150,7 +150,7 @@ function Contact() {
                 text="First Name"
                 type="text"
                 placeholder="Enter your first name"
-                className="w-full"
+                className="w-full dark:text-white"
                 value={data.firstName}
                 onChange={(e) => handleInputChange("firstName", e.target.value)}
               />
@@ -158,7 +158,7 @@ function Contact() {
                 text="Last Name"
                 type="text"
                 placeholder="Enter your last name"
-                className="w-full"
+                className="w-full dark:text-white"
                 value={data.lastName}
                 onChange={(e) => handleInputChange("lastName", e.target.value)}
               />
@@ -168,7 +168,7 @@ function Contact() {
                 text="Email"
                 type="email"
                 placeholder="Enter your email"
-                className="w-full"
+                className="w-full dark:text-white"
                 value={data.email}
                 onChange={(e) => handleInputChange("email", e.target.value)}
               />
@@ -176,7 +176,7 @@ function Contact() {
                 text="Phone Number"
                 type="number"
                 placeholder="Enter your phone number"
-                className="w-full"
+                className="w-full dark:text-white"
                 value={data.phoneNumber}
                 onChange={(e) => handleInputChange("phoneNumber", e.target.value)}
               />

@@ -130,7 +130,7 @@ function SponsorUs() {
           </div>
         </div>
         <div className="flex min-h-screen flex-col justify-center items-center max-w-6xl mx-auto relative w-full py-20 max-sm:py-24 px-4 sm:px-6 lg:px-8">
-          <div className="text-lg text-center font-medium italic px-16 max-sm:px-8 mb-2">
+          <div className="text-lg text-center font-medium italic px-16 max-sm:px-8 mb-2 dark:text-white">
             GirlScript Summer of Code is a platform where students learn,
             contribute, and grow in the field of open-source development. By
             sponsoring GSSoC, you help empower future tech innovators, promote
@@ -143,7 +143,7 @@ function SponsorUs() {
             </span>{" "}
             for more information
           </div>
-          <div className="text-3xl my-8 text-center font-medium">
+          <div className="text-3xl my-8 text-center font-medium dark:text-white">
             OUR PREVIOUS SPONSORS
           </div>
           <div className="flex w-full flex-wrap gap-12 justify-between max-lg:justify-center">
@@ -166,7 +166,7 @@ function SponsorUs() {
               />
             </div>
           </div>
-          <div className="text-3xl my-8 text-center font-medium">
+          <div className="text-3xl my-8 text-center font-medium dark:text-white">
             WISH TO CONTRIBUTE IN OUR ENDEAVOUR? SPONSOR US
           </div>
           <div className="space-y-4">
@@ -175,7 +175,7 @@ function SponsorUs() {
                 <div>
                   <label
                     htmlFor="organizationName"
-                    className="text-sm font-medium text-gray-700 flex gap-1"
+                    className="text-sm font-medium text-gray-700 flex gap-1 dark:text-white"
                   >
                     ORGANIZATION/ INDIVIDUAL NAME{" "}
                     <span className="text-xs text-red-500">(required)</span>
@@ -185,14 +185,14 @@ function SponsorUs() {
                     id="organizationName"
                     value={formData.organizationName}
                     onChange={handleChange}
-                    className="mt-1 px-2 block w-full h-10 border-black border-[1px] rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                    className="mt-1 px-2 block w-full h-10 border-black border-[1px] rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:text-white"
                     required
                   />
                 </div>
                 <div>
                   <label
                     htmlFor="organizationEmail"
-                    className="text-sm font-medium text-gray-700 flex gap-1"
+                    className="text-sm font-medium text-gray-700 flex gap-1 dark:text-white"
                   >
                     ORGANIZATION EMAIL ID{" "}
                     <span className="text-xs text-red-500">(required)</span>
@@ -202,14 +202,14 @@ function SponsorUs() {
                     id="organizationEmail"
                     value={formData.organizationEmail}
                     onChange={handleChange}
-                    className="mt-1 px-2 block w-full h-10 border-black border-[1px] rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                    className="mt-1 px-2 block w-full h-10 border-black border-[1px] rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:text-white"
                     required
                   />
                 </div>
                 <div>
                   <label
                     htmlFor="contactName"
-                    className="text-sm font-medium text-gray-700 flex gap-1"
+                    className="text-sm font-medium text-gray-700 flex gap-1 dark:text-white"
                   >
                     NAME OF PERSON OF CONTACT{" "}
                     <span className="text-xs text-red-500">(required)</span>
@@ -219,7 +219,7 @@ function SponsorUs() {
                     id="contactName"
                     value={formData.contactName}
                     onChange={handleChange}
-                    className="mt-1 px-2 block w-full h-10 border-black border-[1px] rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                    className="mt-1 px-2 block w-full h-10 border-black border-[1px] rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:text-white"
                     required
                   />
                 </div>
@@ -229,7 +229,7 @@ function SponsorUs() {
                 <div>
                   <label
                     htmlFor="contactEmail"
-                    className="text-sm font-medium text-gray-700 flex gap-1"
+                    className="text-sm font-medium text-gray-700 flex gap-1 dark:text-white"
                   >
                     POC EMAIL-ID{" "}
                     <span className="text-xs text-red-500">(required)</span>
@@ -239,14 +239,14 @@ function SponsorUs() {
                     id="contactEmail"
                     value={formData.contactEmail}
                     onChange={handleChange}
-                    className="mt-1 px-2 block w-full h-10 border-black border-[1px] rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                    className="mt-1 px-2 block w-full h-10 border-black border-[1px] rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:text-white"
                     required
                   />
                 </div>
                 <div>
                   <label
                     htmlFor="phoneNumber"
-                    className="text-sm font-medium text-gray-700 flex gap-1"
+                    className="text-sm font-medium text-gray-700 flex gap-1 dark:text-white"
                   >
                     POC PHONE NUMBER{" "}
                     <span className="text-xs text-red-500">(required)</span>
@@ -256,14 +256,14 @@ function SponsorUs() {
                     id="phoneNumber"
                     value={formData.phoneNumber}
                     onChange={handleChange}
-                    className="mt-1 px-2 block w-full h-10 border-black border-[1px] rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                    className="mt-1 px-2 block w-full h-10 border-black border-[1px] rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:text-white"
                     required
                   />
                 </div>
                 <div>
                   <label
                     htmlFor="notes"
-                    className="text-sm font-medium text-gray-700 flex gap-1"
+                    className="text-sm font-medium text-gray-700 flex gap-1 dark:text-white"
                   >
                     NOTES{" "}
                     <span className="text-xs text-red-500">(required)</span>
@@ -273,7 +273,7 @@ function SponsorUs() {
                     id="notes"
                     value={formData.notes}
                     onChange={handleChange}
-                    className="mt-1 px-2 block w-full h-10 border-black border-[1px] rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                    className="mt-1 px-2 block w-full h-10 border-black border-[1px] rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:text-white"
                     required
                   />
                 </div>
@@ -290,7 +290,7 @@ function SponsorUs() {
           </div>
           <div className="mt-10">
             <div className="flex flex-col justify-center items-center gap-5 p-5">
-              <h5 className="font-bold text-lg text-center">
+              <h5 className="font-bold text-lg text-center dark:text-white">
                 Want to support our organization? Sponsor us on GitHub
                 through github sponsors
               </h5>
